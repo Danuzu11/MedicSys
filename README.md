@@ -1,11 +1,11 @@
-# 🏥 MedicSys MVP - Sistema de Citas Médicas
+# 🏥 MedicSys - Sistema de Citas Médicas
 
 ![CakePHP](https://img.shields.io/badge/CakePHP-4.x-blue?logo=cakephp&style=flat-square)
 ![Build Status](https://img.shields.io/github/workflow/status/cakephp/app/CI?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
 ![PHPStan](https://img.shields.io/badge/PHPStan-level%207-brightgreen.svg?style=flat-square)
 
-Sistema web para la gestión de citas médicas, afiliados y médicos, desarrollado con [CakePHP](https://cakephp.org) 4.x.
+MVP enfocado en sistema web para la gestión de citas médicas, afiliados y médicos, desarrollado con [CakePHP](https://cakephp.org) 4.x.
 
 ---
 
