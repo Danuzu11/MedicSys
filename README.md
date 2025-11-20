@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)
 ![PHPStan](https://img.shields.io/badge/PHPStan-level%207-brightgreen.svg?style=flat-square)
 
-MVP enfocado en sistema web para la gestión de citas médicas, afiliados y médicos, desarrollado con [CakePHP](https://cakephp.org) 4.x.
+MVP enfocado en plataforma web para la gestión de citas médicas, afiliados y médicos, desarrollado con [CakePHP](https://cakephp.org) 4.x.
 
 ---
 
