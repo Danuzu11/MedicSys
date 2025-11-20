@@ -18,14 +18,14 @@
         <?= $this->Form->create(null, ['name' => 'formulario', 'class' => 'formulario', 'id' => 'formulario', 'url' => ['controller' => 'users', 'action' => 'login']]) ?>
 
         <div class="formulario__grupo-input text-blue-400 font-bold ">
-            <?= $this->Form->control('Usuario', ['id' => "user", 'class' => 'mt-2 rounded-md formulario__grupo-input w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4', 'name' => 'user', 'value' => '']) ?>
+            <?= $this->Form->control('Usuario', ['id' => "user", 'class' => 'p-2 mt-2 rounded-md formulario__grupo-input w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4', 'name' => 'user', 'value' => '']) ?>
         </div>
 
         <div class="formulario__grupo-input text-blue-400 font-bold">
-            <?= $this->Form->control('Contraseña', ['id' => "password", 'class' => 'mt-2 rounded-md formulario__grupo-input w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4', 'type' => 'password', 'name' => 'password', 'value' => '']) ?>
+            <?= $this->Form->control('Contraseña', ['id' => "password", 'class' => 'p-2 mt-2 rounded-md formulario__grupo-input w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4', 'type' => 'password', 'name' => 'password', 'value' => '']) ?>
         </div>
 
-        <?= $this->Form->button('Iniciar Sesion', ['class' => 'font-bold bg-blue-500 w-full text-gray-100 py-2 rounded hover:bg-blue-600 transition-colors', 'type' => 'submit', 'onclick' => 'validar();']) ?>
+        <?= $this->Form->button('Iniciar Sesion', ['class' => 'font-bold bg-blue-500 w-full text-gray-100 py-2 rounded hover:bg-blue-600 transition-colors rounded-full', 'type' => 'submit', 'onclick' => 'validar();']) ?>
 
         <?= $this->Form->end() ?>
 
