@@ -43,11 +43,11 @@
                     <div class="mx-20" style="display: flex;">
 
                         <div class="input text mx-5">
-                            <?= $this->Form->control('search', ['label' => false, 'class' => 'form-control rounded-md', 'placeholder' => 'Buscar nombre o Codigo']) ?>
+                            <?= $this->Form->control('search', ['label' => false, 'class' => 'form-control rounded-md p-2', 'placeholder' => 'Buscar nombre o Codigo']) ?>
                         </div>
 
                         <div class="input text">
-                            <select class="rounded-md" id="select-status" placeholder="Filtrar por status"
+                            <select class="rounded-md p-2" id="select-status" placeholder="Filtrar por status"
                                 name="status">
                                 <option value="">Busqueda por status</option>
                                 <option value="activo">Activo</option>
@@ -56,7 +56,7 @@
                         </div>
 
                         <div class="input text mx-5">
-                            <select name="especialidad" id="select-especialidad" name="especialidad_id" class="rounded-md" >
+                            <select name="especialidad" id="select-especialidad" name="especialidad_id" class="rounded-md p-2" >
                                 <option value="">Busqueda por especialidad</option>
                                 <?php foreach($especialidadesDescripciones as $key => $especialidades):  ?>
                                     <option style="color: green;" value="<?php echo $especialidades->id; ?>"><?php echo $especialidades->especialidad; ?></option>

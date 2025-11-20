@@ -27,7 +27,7 @@
         </div>
         <?= $this->Form->create(null, ['url' => ['action' => 'verHistorialCitasSistema'], 'type' => 'get']) ?>
         <div class="search" style="display: flex; justify-center">
-            <?= $this->Form->control('search', ['label' => false, 'class' => 'form-control w-96 rounded-md mx-5', 'placeholder' => 'Buscar por correo de la cuenta']) ?>
+            <?= $this->Form->control('search', ['label' => false, 'class' => 'form-control w-96 rounded-md mx-5 p-2', 'placeholder' => 'Buscar por correo de la cuenta']) ?>
             <?= $this->Form->button('Buscar', ['class' => 'w-full buttonSearch mx-10']) ?>
         </div>
         <?= $this->Form->end() ?>

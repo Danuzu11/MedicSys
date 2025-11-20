@@ -89,7 +89,10 @@ class AppController extends Controller
 
     public function beforeFilter(\Cake\Event\EventInterface $event)
     {
-
+        parent::beforeFilter($event);
+        // Allow the display action so our pages controller
+        // continues to work. Also enable the read only actions.
+        $this->Auth->allow(['display', 'login', 'logout']);
  
     }
 }

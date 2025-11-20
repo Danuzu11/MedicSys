@@ -21,7 +21,7 @@
 
 <head>
     <link rel="icon" href="<?= $this->Url->build('/', ['fullBase' => true]) . 'img/logo-ico.png' ?>" type="image/png">
-
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -29,18 +29,15 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <?= $this->Html->css('style_login2.css') ?>
 
     <title>Medicos</title>
+
 
 </head>
 
 
-<head>
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <?= $this->Html->css('style_login2.css') ?>
 <body>
 
     <?= $this->Flash->render() ?>
@@ -60,12 +57,22 @@
     <script>
         //script de animacion de logo 
         const welcomeDiv = document.querySelector('.welcome');
-        const image = new Image();
-        image.src = 'https://phpstack-909679-3911089.cloudwaysapps.com/medicsys/webroot/img/image/HD-wallpaper-doctor-medical.jpg';
+        const image = new Image();  
+        image.src = '<?= $this->Url->image('/img/image/HD-wallpaper-doctor-medical.jpg') ?>';
         image.onload = function() {
           welcomeDiv.classList.add('loaded');
         }
+
     </script>
 </body>
 
 </html>
+
+<style>
+    body {
+        background-image: url("<?= $this->Url->image('/img/image/HD-wallpaper-doctor-medical.jpg') ?>");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style>

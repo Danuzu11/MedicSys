@@ -43,11 +43,11 @@
                     <!-- <div class="grid grid-cols-3 gap-4"> -->
                         <div class="mx-20" style="display: flex;">
                         <div class="input text mx-10">
-                            <?= $this->Form->control('search', ['label' => false, 'class' => 'form-control rounded-md w-80', 'placeholder' => 'Buscar nombre o correo']) ?>
+                            <?= $this->Form->control('search', ['label' => false, 'class' => 'form-control rounded-md w-80 p-2', 'placeholder' => 'Buscar nombre o correo']) ?>
                         </div>
 
                         <div class="input text ">
-                            <select class="rounded-md" id="select-status" placeholder="Filtrar por status"
+                            <select class="rounded-md p-2" id="select-status" placeholder="Filtrar por status"
                                 name="status">
                                 <option value="">Busqueda por status</option>
                                 <option value="activo">Activo</option>

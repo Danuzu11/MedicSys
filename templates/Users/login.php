@@ -4,26 +4,25 @@
  * @var iterable<\App\Model\Entity\User> $users
  */
 ?>
-<div class="container-form sign-in">
-    <div class="opacity-90 w-96 bg-slate-800 rounded-lg px-6 py-36 ring-1 ring-slate-900/5 shadow-xl  items-center text-center"
-        id="fix-width">
-
+<div class="container-form sign-in p-10 flex justify-center items-center h-screen gap-20">
+    <div class="opacity-80 w-96 bg-slate-900 rounded-lg px-6 py-36 ring-1 ring-slate-900/5 shadow-xl  items-center text-center" id="fix-width">
+    
         <div class="flex items-center justify-center mb-7 ">
             <?= $this->Html->image('image/LogoDoc.png', ['class' => 'h-36 rounded-full']) ?>
         </div>
 
-        <h1 class=" mb-5 font-semibold text-3xl text-blue-900  md:text-center">
+        <h1 class=" mb-5 font-semibold text-3xl text-blue-400  md:text-center">
             Inicia sesion
         </h1>
 
         <?= $this->Form->create(null, ['name' => 'formulario', 'class' => 'formulario', 'id' => 'formulario', 'url' => ['controller' => 'users', 'action' => 'login']]) ?>
 
-        <div class="formulario__grupo-input">
-            <?= $this->Form->control('Usuario', ['id' => "user", 'class' => 'formulario__grupo-input w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4', 'name' => 'user', 'value' => '']) ?>
+        <div class="formulario__grupo-input text-blue-400 font-bold ">
+            <?= $this->Form->control('Usuario', ['id' => "user", 'class' => 'mt-2 rounded-md formulario__grupo-input w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4', 'name' => 'user', 'value' => '']) ?>
         </div>
 
-        <div class="formulario__grupo-input">
-            <?= $this->Form->control('Contraseña', ['id' => "password", 'class' => 'formulario__grupo-input w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4', 'type' => 'password', 'name' => 'password', 'value' => '']) ?>
+        <div class="formulario__grupo-input text-blue-400 font-bold">
+            <?= $this->Form->control('Contraseña', ['id' => "password", 'class' => 'mt-2 rounded-md formulario__grupo-input w-full py-2 bg-gray-100 text-gray-500 px-1 outline-none mb-4', 'type' => 'password', 'name' => 'password', 'value' => '']) ?>
         </div>
 
         <?= $this->Form->button('Iniciar Sesion', ['class' => 'font-bold bg-blue-500 w-full text-gray-100 py-2 rounded hover:bg-blue-600 transition-colors', 'type' => 'submit', 'onclick' => 'validar();']) ?>
@@ -40,6 +39,7 @@
             <p> Ingresa y disfruta de nuestros servicios </p>
         </div>
     </div>
+    
 </div>
 
 
