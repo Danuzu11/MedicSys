@@ -13,6 +13,13 @@ MVP enfocado en plataforma web para la gestión de citas médicas, afiliados y m
 * **Sistema de Alertas:** Lógica de notificaciones y dashboard administrativo para visualización de reportes.
 * **Seguridad:** Implementación de autenticación y manejo de sesiones seguro.
   
+
+---
+
+## 🖼️ Figma
+* Aqui podra visualizar algunas vistas del proyecto.
+**Link de Figma**: https://www.figma.com/design/GABShj27XuQUEzvgIOPp5O/Modelado-Interfaz-MedycSys?t=ieogG9x0SPu5T4gz-1
+  
 ---
 
 ## 🚀 Características principales
