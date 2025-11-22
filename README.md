@@ -7,6 +7,8 @@
 
 MVP enfocado en plataforma web para la gestión de citas médicas, afiliados y médicos, desarrollado con [CakePHP](https://cakephp.org) 4.x.
 
+MedicSys es el puente digital entre especialistas de la salud y pacientes. Esta plataforma web centraliza la gestión clínica permitiendo agendar, administrar y monitorear citas médicas de manera intuitiva y segura. Diseñado para reducir el ausentismo y mejorar la organización administrativa, el sistema ofrece dashboards interactivos, gestión completa de expedientes de afiliados y un sistema de alertas automatizado, garantizando que la atención médica sea la prioridad, no la burocracia.
+
 **Puntos técnicos destacados:**
 * **Arquitectura MVC:** Implementación robusta separando lógica de negocio (Modelos/Tablas) de la capa de presentación.
 * **Gestión de Entidades:** CRUDs complejos para Médicos, Usuarios y Afiliados con sus respectivas relaciones.
