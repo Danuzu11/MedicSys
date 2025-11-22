@@ -101,6 +101,14 @@ MedicSys/
    composer install
    ```
 
+   Si tiene problema con la version de php puedes probar con la siguiente linea de codigo:
+   
+   ```bash
+   composer install --ignore-platform-reqs
+   ```
+
+   Esto ignorara los requisitos de la version de php.
+
 3. **Configuración**
    - Copia `config/app_local.example.php` a `config/app_local.php` y ajusta tus credenciales de BD.
    - Opcional: copia `.env.example` a `.env` y configura variables de entorno.

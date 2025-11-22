@@ -1,0 +1,8 @@
+user: adminPrincipal 
+pwd: 123456
+
+user: client
+pwd: 123456
+
+
+IMPORTANTE: SI SE CREAN MAS USUARIOS ADEMAS DE ESTOS ELIMINAR (admin y client son los unicos funcionales)
